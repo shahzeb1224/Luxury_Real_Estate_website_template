@@ -23,9 +23,9 @@ import {
   Home,
   Users,
   Calendar,
-  Facebook,
-  Instagram,
-  Linkedin,
+  FaFacebook,
+  FaInstagram,
+  FaLinkedinIn,
   Twitter,
   MessageCircle,
   CheckCircle,
@@ -67,7 +67,9 @@ const AgentProfilePage = () => {
       <div className="min-h-screen bg-gray-50 flex items-center justify-center">
         <div className="text-center">
           <h1 className="text-4xl font-playfair font-bold text-navy-800">Agent Not Found</h1>
-          <p className="text-navy-500 mt-4">The agent you&apos;re looking for doesn&apos;t exist.</p>
+          <p className="text-navy-500 mt-4">
+            The agent you&apos;re looking for doesn&apos;t exist.
+          </p>
           <Link to="/agents">
             <Button variant="luxury" size="md" className="mt-6">
               Back to Agents
@@ -358,7 +360,7 @@ const AgentProfilePage = () => {
                         className="p-2 bg-navy-50 rounded-lg hover:bg-navy-100 transition-colors"
                         aria-label="Facebook"
                       >
-                        <Facebook className="w-4 h-4 text-navy-600" />
+                        <FaFacebook className="w-4 h-4 text-navy-600" />
                       </a>
                     )}
                     {agent.social.instagram && (
@@ -369,7 +371,7 @@ const AgentProfilePage = () => {
                         className="p-2 bg-navy-50 rounded-lg hover:bg-navy-100 transition-colors"
                         aria-label="Instagram"
                       >
-                        <Instagram className="w-4 h-4 text-navy-600" />
+                        <FaInstagram className="w-4 h-4 text-navy-600" />
                       </a>
                     )}
                     {agent.social.linkedin && (
@@ -380,7 +382,7 @@ const AgentProfilePage = () => {
                         className="p-2 bg-navy-50 rounded-lg hover:bg-navy-100 transition-colors"
                         aria-label="LinkedIn"
                       >
-                        <Linkedin className="w-4 h-4 text-navy-600" />
+                        <FaLinkedinIn className="w-4 h-4 text-navy-600" />
                       </a>
                     )}
                     {agent.social.twitter && (
