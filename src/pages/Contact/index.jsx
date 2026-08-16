@@ -41,7 +41,7 @@ const GoogleMap = lazy(() => import('@/components/maps/GoogleMap'));
 // Import FAQ component
 import { FAQ } from '@/components/sections';
 import useMediaQuery from '../../hooks/useMediaQuery';
-import FAQAccordion from '../../components/sections/Awards/FAQ/FAQAccordion';
+import FAQAccordion from '../../components/sections/FAQ/FAQAccordion';
 
 // Contact information
 const contactInfo = [

@@ -47,7 +47,7 @@ import { STATISTICS_DATA } from '@/components/sections/Statistics/statistics.dat
 import { TESTIMONIALS_DATA } from '@/components/sections/Testimonials/testimonials.data';
 import { PARTNERS_DATA } from '@/components/sections/Partners/partners.data';
 import { AWARDS_DATA } from '@/components/sections/Awards/awards.data';
-import { FAQ_DATA } from '@/components/sections/Awards/FAQ/faq.data';
+import { FAQ_DATA } from '@/components/sections/FAQ/faq.data';
 import { CTA_DEFAULTS } from '@/components/sections/CTA/cta.data';
 import imageAgent1 from '@/assets/images/agents/image1.png';
 import imageAgent2 from '@/assets/images/agents/image2.png';

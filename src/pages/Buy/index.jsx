@@ -44,7 +44,7 @@ import {
   Crown,
   Calculator,
 } from 'lucide-react';
-import FAQAccordion from '../../components/sections/Awards/FAQ/FAQAccordion';
+import FAQAccordion from '../../components/sections/FAQ/FAQAccordion';
 
 // Mock property data
 const mockProperties = Array.from({ length: 12 }, (_, i) => ({
@@ -779,7 +779,9 @@ const BuyPage = () => {
                       />
                     ))}
                   </div>
-                  <p className="text-sm text-navy-600 leading-relaxed">&quot;{testimonial.review}&quot;</p>
+                  <p className="text-sm text-navy-600 leading-relaxed">
+                    &quot;{testimonial.review}&quot;
+                  </p>
                   <p className="text-xs text-navy-400 mt-2">Purchased: {testimonial.property}</p>
                 </Card>
               </motion.div>
