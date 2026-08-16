@@ -11,34 +11,20 @@ import SectionHeader from '@/components/shared/SectionHeader';
 import Breadcrumb from '@/components/layout/Breadcrumb';
 import { Button, Card, Badge } from '@/components/ui';
 import { PropertyCard } from '@/components/property';
-import { CTA } from '@/components/sections';
 import {
   TrendingUp,
   DollarSign,
-  Award,
   Building2,
   Home,
   Crown,
   Factory,
   PieChart,
-  Tool,
   FileText,
   Download,
   ChevronRight,
-  Star,
   ArrowUpRight,
   ArrowDownRight,
-  Shield,
-  Briefcase,
-  LineChart,
-  BarChart,
-  Sparkles,
-  Percent,
-  Wallet,
-  Globe,
-  Clock,
   Users,
-  MapPin,
 } from 'lucide-react';
 import { SEARCH_PROPERTIES } from '@/data/searchData';
 import INVESTMENT_DATA from '@/data/investmentData';
