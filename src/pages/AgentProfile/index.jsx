@@ -23,7 +23,6 @@ import {
   Home,
   Users,
   Calendar,
-  FaFacebook,
   FaInstagram,
   FaLinkedinIn,
   Twitter,
@@ -352,17 +351,6 @@ const AgentProfilePage = () => {
                 <div className="mt-4 pt-4 border-t border-navy-100">
                   <h4 className="text-sm font-medium text-navy-600 mb-3">Connect on Social</h4>
                   <div className="flex flex-wrap gap-2">
-                    {agent.social.facebook && (
-                      <a
-                        href={agent.social.facebook}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="p-2 bg-navy-50 rounded-lg hover:bg-navy-100 transition-colors"
-                        aria-label="Facebook"
-                      >
-                        <FaFacebook className="w-4 h-4 text-navy-600" />
-                      </a>
-                    )}
                     {agent.social.instagram && (
                       <a
                         href={agent.social.instagram}
