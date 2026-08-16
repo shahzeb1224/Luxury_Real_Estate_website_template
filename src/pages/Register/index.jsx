@@ -16,11 +16,11 @@ import {
   MapPin,
   ArrowRight,
   Apple,
-  Chrome,
   CheckCircle,
   AlertCircle,
 } from 'lucide-react';
-
+import { FaChrome } from 'react-icons/fa';
+import { FaReact } from 'react-icons/fa';
 const RegisterPage = () => {
   const navigate = useNavigate();
   const [formData, setFormData] = useState({
@@ -419,7 +419,7 @@ const RegisterPage = () => {
               className="w-full flex items-center justify-center gap-3 px-4 py-2.5 border border-navy-200 rounded-lg hover:bg-navy-50 transition-colors"
               aria-label="Continue with Google"
             >
-              <Chrome className="w-5 h-5" />
+              <FaChrome className="w-5 h-5" />
               <span className="text-sm font-medium text-navy-700">Continue with Google</span>
             </button>
             <button
