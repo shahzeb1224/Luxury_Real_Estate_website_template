@@ -1,0 +1,11 @@
+export { default as FeaturedLocations } from './FeaturedLocations';
+export { default as LuxuryShowcase } from './LuxuryShowcase';
+export { default as WhyChooseUs } from './WhyChooseUs';
+export { default as Services } from './Services';
+export { default as Statistics } from './Statistics';
+export { default as Testimonials } from './Testimonials';
+export { default as Partners } from './Partners';
+export { default as Awards } from './Awards';
+export { default as FAQ } from './Awards/FAQ';
+export { default as Newsletter } from './Newsletter';
+export { default as CTA } from './CTA';

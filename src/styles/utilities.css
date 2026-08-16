@@ -1,0 +1,62 @@
+@layer utilities {
+  /* Container utilities */
+  .container-premium {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+
+  .container-narrow {
+    @apply max-w-5xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+
+  .container-wide {
+    @apply max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8;
+  }
+
+  /* Section spacing */
+  .section-padding {
+    @apply py-12 sm:py-16 lg:py-20;
+  }
+
+  .section-padding-lg {
+    @apply py-16 sm:py-20 lg:py-24;
+  }
+
+  .section-padding-xl {
+    @apply py-20 sm:py-24 lg:py-32;
+  }
+
+  /* Typography utilities */
+  .heading-luxury {
+    @apply font-playfair font-bold text-navy-800;
+  }
+
+  .heading-luxury-lg {
+    @apply font-playfair font-bold text-3xl sm:text-4xl lg:text-5xl text-navy-800;
+  }
+
+  .text-gold-accent {
+    @apply text-gold-500 font-semibold;
+  }
+
+  /* Card utilities */
+  .card-luxury {
+    @apply bg-white rounded-2xl shadow-premium;
+  }
+
+  .card-luxury-hover {
+    @apply bg-white rounded-2xl shadow-premium hover:shadow-premium-lg transition-shadow duration-300;
+  }
+
+  /* Grid utilities */
+  .grid-luxury {
+    @apply grid gap-4 sm:gap-6;
+  }
+
+  .grid-luxury-3 {
+    @apply grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6;
+  }
+
+  .grid-luxury-4 {
+    @apply grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-6;
+  }
+}
